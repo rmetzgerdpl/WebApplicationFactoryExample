@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFactoryEx", "WebApplicationFactoryEx\WebApplicationFactoryEx.csproj", "{57215B4A-968D-4A8A-A2D9-E3681D846CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57215B4A-968D-4A8A-A2D9-E3681D846CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57215B4A-968D-4A8A-A2D9-E3681D846CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57215B4A-968D-4A8A-A2D9-E3681D846CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57215B4A-968D-4A8A-A2D9-E3681D846CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
