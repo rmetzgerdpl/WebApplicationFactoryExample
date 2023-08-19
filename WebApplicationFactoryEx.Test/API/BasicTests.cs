@@ -8,8 +8,11 @@ namespace WebApplicationFactoryEx.API
     public class BasicTests : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly WebApplicationFactory<Program> _factory;
-        
-        public BasicTests(WebApplicationFactory<Program> factory) {  _factory = factory; }
+
+        public BasicTests(WebApplicationFactory<Program> factory)
+        {
+            _factory = factory;
+        }
         
         [Fact]
         public async void HappyPath()
