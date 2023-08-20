@@ -17,7 +17,7 @@ namespace WebApplicationFactoryEx.API
                 services.AddDbContext<DbContext>(options =>
                 {
                     //From Microsoft.EntityFrameworkCore.InMemory library
-                    options.UseInMemoryDatabase("FileName");
+                    options.UseInMemoryDatabase("InMemoryDb");
                     // Don't raise error about InMemory not supporting transactions
                     options.ConfigureWarnings(x => x.Ignore(InMemoryEventId.TransactionIgnoredWarning));
                 });
