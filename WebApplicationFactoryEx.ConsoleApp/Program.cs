@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Nebraska.Code", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApplicationFactoryExample", Version = "v1" });
 });
 
 builder.Services.AddDbContext<DbContext>(options =>
